@@ -1,0 +1,6 @@
+_BASE_: "./faster_rcnn_R_101_FPN_1x.yaml"
+MODEL:
+  ROI_HEADS:
+    NAME: "QDTrackROIHeadsSeqClsFT"
+  QDTRACK:
+    CLS_FINETUNE: True
